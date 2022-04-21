@@ -7,7 +7,7 @@
 JEECG BOOT 低代码开发平台（前后端分离版本）
 ===============
 
-当前最新版本： 3.1.0（发布日期：2022-03-01）
+当前最新版本： 3.2.0-beta（发布日期：2022-04-18）
 
 
 [![AUR](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg)](https://github.com/zhangdaiscott/jeecg-boot/blob/master/LICENSE)
@@ -53,7 +53,7 @@ Jeecg-Boot低代码开发平台，可以应用在任何J2EE项目的开发中，
 
 - 新手指南： [快速入门](http://www.jeecg.com/doc/quickstart)  |   [常见问题 ](http://www.jeecg.com/doc/qa)  |   [技术支持](http://jeecg.com/doc/help) |  [1分钟体验低代码](https://my.oschina.net/jeecg/blog/3083313)
 
-- 微服务开发：  [单体切换为微服务](http://doc.jeecg.com/2043906)
+- 微服务开发：  [单体切换为微服务](http://doc.jeecg.com/2704725)
 
 - QQ交流群 ： ⑤860162132、683903138(VUE3版)、~~④774126647(满)、③816531124(满)、②769925425(满)、①284271917(满)~~
 
@@ -132,13 +132,13 @@ Vue3版前端（Beta版）
 
 #### 后端
 
-- 基础框架：Spring Boot 2.3.5.RELEASE
+- 基础框架：Spring Boot 2.6.6
 
-- 微服务框架： Spring Cloud Alibaba 2.2.3.RELEASE
+- 微服务框架： Spring Cloud Alibaba 2021.1
 
-- 持久层框架：MybatisPlus 3.4.3.1 
+- 持久层框架：MybatisPlus 3.5.1
 
-- 报表工具： JimuReport 1.4.32
+- 报表工具： JimuReport 1.5.0-beta
 
 - 安全框架：Apache Shiro 1.8.0，Jwt 3.11.0
 
@@ -192,7 +192,7 @@ Vue3版前端（Beta版）
 
 4、分布式 http feign √
 
-5、熔断和降级 Sentinel √
+5、熔断降级限流 Sentinel √
 
 6、分布式文件 Minio、阿里OSS √ 
 
